@@ -43,7 +43,7 @@ internal static partial class AgentJsonUtilities
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping, // same as in AgentAbstractionsJsonUtilities and AIJsonUtilities
         };
 
-        // Chain with all supported types from Microsoft.Extensions.AI.Abstractions.
+        // Chain with all supported types from Microsoft.Agents.AI.Abstractions.
         options.TypeInfoResolverChain.Add(AgentAbstractionsJsonUtilities.DefaultOptions.TypeInfoResolver!);
         if (JsonSerializer.IsReflectionEnabledByDefault)
         {
