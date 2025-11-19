@@ -48,6 +48,7 @@ all = [
     "agent-framework-azurefunctions",
     "agent-framework-chatkit",
     "agent-framework-copilotstudio",
+    "agent-framework-declarative",
     "agent-framework-devui",
     "agent-framework-lab",
     "agent-framework-mem0",
